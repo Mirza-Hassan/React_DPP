@@ -1,0 +1,48 @@
+.electricity-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #f7f7f7;
+}
+
+.electricity-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.electricity-table th,
+.electricity-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+  background-color: #ecf0f1;
+}
+
+.pagination-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-buttons button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination-buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.percentage {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #3498db;
+}

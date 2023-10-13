@@ -1,0 +1,60 @@
+.dpp-form-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #f7f7f7;
+}
+
+.dpp-form {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .dpp-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dpp-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .dpp-form input[type="datetime-local"],
+  .dpp-form input[type="number"],
+  .dpp-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dpp-form .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .dpp-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dpp-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+.dpp-form .success-message {
+  color: #008000;
+  font-weight: bold;
+  margin-top: 10px;
+}
